@@ -19,11 +19,15 @@
 	"API": {
     "PROD": {
       "*": "{AWS_PROD_API_ID_DEFAULT}",
-      "jazz_*": "{AWS_PROD_API_ID_JAZZ}"
+      "jazz": {
+        "*": "{AWS_PROD_API_ID_JAZZ}"
+      }
     },
     "STG": {
       "*": "{AWS_STG_API_ID_DEFAULT}",
-      "jazz_*": "{AWS_STG_API_ID_JAZZ}"
+      "jazz": {
+        "*": "{AWS_STG_API_ID_JAZZ}"
+      }
     },
     "DEV": {
       "*": "{AWS_DEV_API_ID_DEFAULT}"
